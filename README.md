@@ -4,4 +4,6 @@ This repository contains a game created in Typescript to prove my competencies w
 This project was made in under 4/5 hours (which was a requirement) and contains an additional UML design. 
 I've been graded a 8.6/10 for this project.
 
-Link to online game: 
+Link to online game: https://brainilio.github.io/Typescript_Design_Patterns/
+
+
