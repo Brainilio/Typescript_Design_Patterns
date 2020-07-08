@@ -1,0 +1,88 @@
+html,
+body {
+	height: 100%;
+}
+
+script {
+	display: none !important;
+}
+
+body {
+	background-color: #70cf51;
+	font-family: "Press Start 2P", cursive;
+	color: white;
+	font-size: 22px;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../images/court.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+game * {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: block;
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+}
+
+splash {
+	font-size: 2em;
+	cursor: pointer;
+	width: 500px;
+	height: 100px;
+	margin-top: calc(50vh - 50px);
+	margin-left: calc(50vw - 250px);
+	text-align: center;
+}
+
+ball-component {
+	width: 22px;
+	height: 22px;
+	background-image: url(../images/ballBlue.png);
+}
+
+paddle-component {
+	width: 104px;
+	height: 24px;
+	background-image: url(../images/paddleRed.png);
+}
+
+brick-component {
+	width: 64px;
+	height: 32px;
+	background-image: url(../images/brick-purple.png);
+}
+
+yellow-brick {
+	width: 64px;
+	height: 32px;
+	background-image: url(../images/brick-yellow.png);
+}
+
+hold-upgrade {
+	width: 48px;
+	height: 46px;
+	background-image: url(../images/upgrades/polygon_red.png);
+}
+faster-upgrade {
+	position: absolute;
+	z-index: -2;
+	width: 20px;
+	height: 20px;
+	background-image: url(../images/upgrades/polygon_blue.png);
+}
+
+score {
+	position: relative;
+	display: block;
+	margin: auto;
+	width: 400px;
+	text-align: center;
+}
+score * {
+	position: relative;
+}

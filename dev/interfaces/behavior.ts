@@ -1,0 +1,4 @@
+interface Behavior {
+     Move(): void
+}
+
